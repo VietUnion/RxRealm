@@ -92,6 +92,10 @@
 		CE41143EEFB988F9D2122692 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 980DA13898F199469C1705CB /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE987F7FF23CFC954A78EFAC /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA722B82BCBB0FB913962547 /* RealmSwift.framework */; };
 		CEA037A8C4CC14F7FD128F9B /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B12E96D25A38DADF2258913C /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D110BA6B2AE1432100657E79 /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110BA6A2AE1432100657E79 /* Observable+Alias.swift */; };
+		D110BA6C2AE1432100657E79 /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110BA6A2AE1432100657E79 /* Observable+Alias.swift */; };
+		D110BA6D2AE1432100657E79 /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110BA6A2AE1432100657E79 /* Observable+Alias.swift */; };
+		D110BA6E2AE1432100657E79 /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110BA6A2AE1432100657E79 /* Observable+Alias.swift */; };
 		D23D06764030F0052DCC1998 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980DA13898F199469C1705CB /* RealmSwift.framework */; };
 		D23F8E303A1F2F43B133BBB6 /* RxRealm iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED1C8A1F1D1791A314475DB /* RxRealm iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D51420C855407FC6DB30D484 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA722B82BCBB0FB913962547 /* RealmSwift.framework */; };
@@ -209,7 +213,7 @@
 		48CAC0A41A45D2027D2A7298 /* RealmObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmObserver.swift; sourceTree = "<group>"; };
 		4B6FDEA93324313D0EDEDA52 /* RxRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealm.swift; sourceTree = "<group>"; };
 		5352F3EA9B5B1B2F2AB2CD16 /* RxRealmRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmRealmTests.swift; sourceTree = "<group>"; };
-		59F1E84CC1311FAB693691CC /* RxRealm tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxRealm tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F1E84CC1311FAB693691CC /* RxRealm tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "RxRealm tvOS.framework"; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6C807249ED308D246F6D06 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTest.framework; sourceTree = "<group>"; };
 		65B40A59900C5B371BE14310 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		6878289DB5FCAF428C71FD1E /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTest.framework; sourceTree = "<group>"; };
@@ -219,11 +223,11 @@
 		84060F07531F5BCE23AD3475 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
 		84A5083ED8CF945D74A17579 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		91CF303357AEEDF796561E80 /* RxRealmListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmListTests.swift; sourceTree = "<group>"; };
-		979D95CF33890213FF881AF6 /* RxRealm watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxRealm watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		979D95CF33890213FF881AF6 /* RxRealm watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "RxRealm watchOS.framework"; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		980DA13898F199469C1705CB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		98DDD7E7745ACF27877765E0 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		99B4130258A5CF6BDD1272D3 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
-		9ED1C8A1F1D1791A314475DB /* RxRealm iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxRealm iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED1C8A1F1D1791A314475DB /* RxRealm iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "RxRealm iOS.framework"; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78EF38585A01050B762270B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		A8C40BC367CFEDAE224E5BDB /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		AA722B82BCBB0FB913962547 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
@@ -231,10 +235,11 @@
 		B12E96D25A38DADF2258913C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		B80DE653DC7500C346989697 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxRelay.framework; sourceTree = "<group>"; };
 		B8CAD73B2AC3082042C5893C /* TestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModels.swift; sourceTree = "<group>"; };
-		BA9AA258335B7EBC842E5168 /* RxRealm macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxRealm macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9AA258335B7EBC842E5168 /* RxRealm macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "RxRealm macOS.framework"; path = RxRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EE1F038C3DFCE761D706EA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		C8C6D39A28B108660E1C9E2E /* RxRealmOnQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRealmOnQueueTests.swift; sourceTree = "<group>"; };
 		C9153CD912A461269D65969C /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		D110BA6A2AE1432100657E79 /* Observable+Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Alias.swift"; sourceTree = "<group>"; };
 		D20A1EF63BCE5C391998F8CB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		D5F54E29744A17BB935081D5 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		E02D93C74FED5C7BFBEA4447 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
@@ -453,6 +458,7 @@
 				6C4369E78C4C2B69CE690530 /* Info.plist */,
 				48CAC0A41A45D2027D2A7298 /* RealmObserver.swift */,
 				4B6FDEA93324313D0EDEDA52 /* RxRealm.swift */,
+				D110BA6A2AE1432100657E79 /* Observable+Alias.swift */,
 			);
 			name = RxRealm;
 			path = Sources/RxRealm;
@@ -601,8 +607,6 @@
 			attributes = {
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = RxSwiftCommunity;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 9C3F4D1945D671A61C813C5A /* Build configuration list for PBXProject "RxRealm" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -649,6 +653,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D110BA6C2AE1432100657E79 /* Observable+Alias.swift in Sources */,
 				5B1718CBBC48B48E8B44914A /* RealmObserver.swift in Sources */,
 				08D727FD7720CDE69CC3912F /* RxRealm.swift in Sources */,
 			);
@@ -658,6 +663,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D110BA6D2AE1432100657E79 /* Observable+Alias.swift in Sources */,
 				A78AB60ED6B843BA61A709C6 /* RealmObserver.swift in Sources */,
 				9609078C1AAE88AB13A7708F /* RxRealm.swift in Sources */,
 			);
@@ -684,6 +690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D110BA6E2AE1432100657E79 /* Observable+Alias.swift in Sources */,
 				065ACDE8D3926A85C32D1F90 /* RealmObserver.swift in Sources */,
 				393F1D5E93232779D3C696B6 /* RxRealm.swift in Sources */,
 			);
@@ -693,6 +700,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D110BA6B2AE1432100657E79 /* Observable+Alias.swift in Sources */,
 				ADACE27D199538B61119F410 /* RealmObserver.swift in Sources */,
 				FA0FD5D4069CEA51E3EB7CEB /* RxRealm.swift in Sources */,
 			);
