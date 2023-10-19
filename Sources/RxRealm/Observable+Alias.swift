@@ -8,4 +8,4 @@
 
 import RxSwift
 
-typealias Observable = RxSwift.Observable
+public typealias Observable = RxSwift.Observable
